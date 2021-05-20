@@ -1,0 +1,6 @@
+#---/etc/hosts
+
+#10.0.75.1      host.docker.internal    # from .env; wait
+
+172.19.0.1      host.docker.internal
+#172.18.0.1 - also good; ip of nginx-service; 19 - backend, 18 - frontend networks
